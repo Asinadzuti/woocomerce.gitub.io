@@ -175,3 +175,40 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
+// widgets
+register_sidebar( array(
+	'name' => __( 'information', '' ),
+	'id' => 'Information',
+	'description' => __( 'Information', '' ),
+	'before_widget' => '',
+	'after_widget' => '',
+	'before_title' => '<h2>',
+	'after_title' => '</h2>',
+) );
+
+register_sidebar( array(
+	'name' => __( 'My account', '' ),
+	'id' => 'account',
+	'before_widget' => '',
+	'after_widget' => '',
+	'before_title' => '<h2>',
+	'after_title' => '</h2>',
+) );
+
+register_sidebar( array(
+	'name' => __( 'Second information', '' ),
+	'id' => 'second_nformation',
+	'before_widget' => '',
+	'after_widget' => '',
+	'before_title' => '<h2>',
+	'after_title' => '</h2>',
+) );
+
+register_sidebar( array(
+	'name' => __( 'orders', '' ),
+	'id' => 'orders',
+	'before_widget' => '',
+	'after_widget' => '',
+	'before_title' => '<h2>',
+	'after_title' => '</h2>',
+) );
