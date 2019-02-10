@@ -114,13 +114,14 @@ li{
 	font-weight: 500;
 }
 
-#primary-menu ul {
+.menu-menu-1-container ul {
 	list-style-type: none;
 	margin-left: -40px;
 	margin-top: 15px;
+	margin-bottom: 18px;
 }
 
-#primary-menu ul li {
+.menu-menu-1-container ul li {
 	display: inline;
 	color: #2a2a2a;
 	font-family: "Poppins - Semi Bold";
@@ -128,16 +129,17 @@ li{
 	font-weight: 400;
 	text-transform: uppercase;
 	padding: 0 10px;
+	margin-left: -4px;
 }
 
 .site-branding {
 	background-color: #363636;
 }
-#primary-menu ul li a:hover{
+.menu-menu-1-container ul li a:hover{
 	color: #ffffff;
 	text-decoration: none;
 }
-#primary-menu ul li:hover{
+.menu-menu-1-container ul li:hover{
 	background-color: #d58e32;
 	padding: 21px 10px 21px 10px;
 	color: #ffffff;
@@ -185,4 +187,8 @@ font-family: Poppins;
 font-size: 14px;
 font-weight: 400;
 text-decoration: none;
+}
+.product_content,
+#nav-holder{
+	background-color: #fff;
 }

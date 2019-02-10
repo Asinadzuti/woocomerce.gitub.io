@@ -18,6 +18,7 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
+		<?php echo do_shortcode("[wtcpl-product-cat]"); ?>
 
 
 		</main><!-- #main -->

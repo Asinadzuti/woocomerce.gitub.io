@@ -1,6 +1,6 @@
 <?php
 /**
- * WooCommerce Compatibility File
+ * WooCommerce Compatibility File 
  *
  * @link https://woocommerce.com/
  *
