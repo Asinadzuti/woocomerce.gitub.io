@@ -192,3 +192,16 @@ text-decoration: none;
 #nav-holder{
 	background-color: #fff;
 }
+.size-woocommerce_thumbnail{
+	width: 262px;
+height: 260px;
+}
+.onsale {
+	border-color: #000!important;
+	position: absolute!important;
+	right: 81px!important;
+	top: 8px!important;
+	background: #000!important;
+	border-radius: 0px 0 15px 15px!important;
+	color: #fff!important;
+}
